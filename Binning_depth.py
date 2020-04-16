@@ -1,3 +1,4 @@
+```python
 # -*- coding: utf-8 -*-
 import numpy as np
 import pandas as pd
@@ -74,3 +75,4 @@ def Print_Var(df, y_col, raw_var_list, bins_num=10):
                             })
     pre_iv_df = pre_iv_df.sort_values('iv', ascending=False)
     return pre_iv_df, pre_bins_df
+```
